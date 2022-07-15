@@ -1,0 +1,132 @@
+.register{
+    display: inline-block;
+    border-radius: 15px;
+    margin: 45px;
+    position: relative;
+    text-align: left;
+    background-color: #fff;
+}
+.name1{
+    font-size: 32px;
+    margin: 5px;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+}
+.name2{
+    color: #606770;
+    margin: 5px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+.img1{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+form{
+    display: block;
+    text-align: left;
+}
+.forms{
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 450px;
+    height: 460px;
+    text-align: center;
+}
+.inp_nm,.inp_Snm{
+    float: left;
+    width: 173px;
+    padding: 11px;
+    font-size: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #f5f6f7;
+    border-color: #ccd0d5
+}
+.inp_email,.inp_passw{
+
+    border-color: #ccd0d5;
+    background: #f5f6f7;
+    border-radius: 5px;
+    border: none;
+    width: 399px;
+    height: 36px;
+    margin: 5px;
+}
+.label{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: px10;
+    margin-bottom: 0;
+    margin-top: 2px;
+    text-align: left;
+    
+}
+select{
+    width: 125px;
+    margin: 8px 6px 6px;
+    height: 34px;
+    border-radius: 5px;
+    background: #f5f6f7;
+    border-color: #ccd0d5
+}
+.date{
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: normal;
+    width: 125px;
+    height: 28px;
+    margin: 8px 6px 6px;
+    background: #f5f6f7;
+    border-color: #ccd0d5;
+    border: none;
+}
+.radio_1,.radio_2,.radio_3{
+    position: absolute;
+    left: 27%;
+    bottom: 39%;
+}
+.radio_2{
+    left: 57%;
+}
+.radio_3{
+    left: 88%;
+}
+.text1{
+    color: #606770;
+    font-size: 11px;
+    font-family: inherit;
+    text-align: justify;
+}
+.text1 >a{
+    text-decoration: none;
+}
+button{
+    position: absolute;
+    left: 30%;
+    background-color: #00a400;
+    color: #fff;
+    border:  none;
+    border-radius: 6px;
+    text-align: center;
+    width: 200px;
+    height: 36px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: #5f7e5f;
+}
+
+
